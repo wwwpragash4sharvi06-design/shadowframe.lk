@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ShadowFrame</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header>
+    <h1>ShadowFrame</h1>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#videos">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+    <h2>Crafting Visual Stories That Stand Out</h2>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2>WHO WE ARE</h2>
+    <p>
+    ShadowFrame is a creative media brand specializing in video editing, graphic design,
+    videography, photography, and digital marketing.
+    </p>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+    <h2>OUR SERVICES</h2>
+
+    <div class="grid">
+        <div>VIDEO EDITING</div>
+        <div>GRAPHIC DESIGN</div>
+        <div>PHOTOGRAPHY</div>
+        <div>VIDEOGRAPHY</div>
+    </div>
+
+    <div class="service-text">
+        <p>Cinematic edits that transform raw footage into engaging visuals.</p>
+        <p>Modern, eye-catching designs that elevate your brand.</p>
+        <p>High-quality photography capturing real moments.</p>
+        <p>Professional video production that tells stories.</p>
+    </div>
+</section>
+
+<!-- VIDEO PROJECTS -->
+<section id="videos">
+    <h2>VIDEO EDITING PROJECTS</h2>
+    <p class="subtitle">Selected Projects</p>
+
+    <div class="video-grid">
+        <video src="videos/video1.mp4" controls></video>
+        <video src="videos/video2.mp4" controls></video>
+        <video src="videos/video3.mp4" controls></video>
+        <video src="videos/video4.mp4" controls></video>
+        <video src="videos/video5.mp4" controls></video>
+        <video src="videos/video6.mp4" controls></video>
+    </div>
+</section>
+
+<!-- GRAPHIC DESIGN -->
+<section id="design">
+    <h2>GRAPHIC DESIGN PROJECTS</h2>
+    <p class="subtitle">Selected Projects</p>
+
+    <div class="image-grid">
+        <img src="images/design1.jpg">
+        <img src="images/design2.jpg">
+        <img src="images/design3.jpg">
+    </div>
+</section>
+
+<!-- WHY CHOOSE -->
+<section id="why">
+    <h2>WHY CHOOSE US</h2>
+    <div class="grid">
+        <div>CREATIVE & TREND-BASED</div>
+        <div>HIGH-QUALITY OUTPUT</div>
+        <div>FAST DELIVERY</div>
+        <div>PROFESSIONAL APPROACH</div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2>GET IN TOUCH</h2>
+
+    <p>WhatsApp: 075-675-3754</p>
+    <p>Instagram: @shadow_frame.official</p>
+
+    <h3 class="cta">LET’S WORK TOGETHER</h3>
+</section>
+
+<footer>
+    <p>© 2026 ShadowFrame</p>
+</footer>
+
+</body>
+</html>
